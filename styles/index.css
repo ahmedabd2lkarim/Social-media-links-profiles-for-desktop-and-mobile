@@ -1,0 +1,88 @@
+
+
+.body{
+    width: 1440px;
+    height: 720px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow:  column;
+    padding:20px;
+    font-family: "inter", sans-serif;
+    background-color: hsl(0, 0%, 8%);
+
+}
+
+.container{
+    background-color: hsl(0, 0%, 12%);
+    display: flex;
+    flex-flow: wrap column;
+    align-items: center;
+    justify-content: center;
+    width: 280px;
+    height: 450px;
+    padding: 30px 20px;
+    border-radius: 2%;
+    
+
+}
+.avatar{
+    width: 68px;
+    border-radius: 100%;
+}
+
+.name{
+    color: hsl(0, 0%, 100%);
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.address{
+    color:hsl(75, 94%, 57%);
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 0;
+}
+
+.job{
+    font-size: 12px;
+    font-weight: 400;
+    color: hsl(0, 0%, 100%);
+}
+
+.button{
+   background-color: hsl(0, 0%, 20%);
+   border: hsl(0, 0%, 12%);
+   color:hsl(0, 0%, 100%);
+   width: 250px;
+   height: 40px;
+   border-radius: 8px 8px;
+   font-weight: 700;
+   
+}
+
+.button{
+    margin-bottom: 10px;
+
+}
+
+.button:hover,
+.button:focus{
+    cursor: pointer;
+    background-color:hsl(0, 0%, 12%) ;
+    border:2px solid hsl(0, 0%, 20%) ;
+}
+
+.link{
+    text-decoration: none;
+    font-style: normal;
+    color: inherit;
+}
+
+.info{
+    text-decoration: none;
+    font-style: normal;
+    color: hsl(0, 0%, 100%);
+}
+
