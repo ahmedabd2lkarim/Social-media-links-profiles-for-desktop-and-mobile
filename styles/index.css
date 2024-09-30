@@ -7,14 +7,20 @@
 }
 
 .body {
-  width: 330px;
-  padding: 25px;
-  margin: auto;
-  font-family: "inter", sans-serif;
   background-color: var(--Off-black-neutral);
+  font-family: "inter", sans-serif;
+  max-width: 1440px;
 }
 
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  height: 400px;
+}
 .container {
+  width: 330px;
   background-color: var(--dark-grey-neutral);
   display: flex;
   flex-flow: wrap column;
@@ -22,6 +28,8 @@
   justify-content: center;
   padding: 30px 20px;
   border-radius: 2%;
+  position: absolute;
+  top: 50px;
 }
 .avatar {
   width: 68px;
