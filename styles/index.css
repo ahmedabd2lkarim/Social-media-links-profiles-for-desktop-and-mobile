@@ -56,10 +56,12 @@
   height: 40px;
   border-radius: 8px 8px;
   font-weight: 700;
-}
-
-.button {
   margin-bottom: 10px;
+  text-decoration: none;
+  text-align: center;
+  line-height: 40px;
+  font-size: 12px;
+  font-family: "inter", sans-serif;
 }
 
 .button:hover {
@@ -67,12 +69,6 @@
   color: var(--Off-black-neutral);
   background-color: var(--green-primary);
   border: none;
-}
-
-.link {
-  text-decoration: none;
-  font-style: normal;
-  color: inherit;
 }
 
 .info {
